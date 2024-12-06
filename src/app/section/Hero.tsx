@@ -11,7 +11,7 @@ import zoom from '@/app/assets/CompanyLogo/zoomLogo.png'
 
 export default function Hero() {
   return (
-    <div className='mt-16 w-screen h-[93vh]'>
+    <div className='mt-16 w-screen h-screen pt-10'>
         <div className='w-full h-[80%] bg-white flex px-16'>
             <div className='w-1/2 h-full flex flex-col justify-center items-start gap-16'>
                 <h1 className='text-8xl'>Navigating the digital landscape<br/>for success</h1>
