@@ -7,7 +7,7 @@ import Logo from "@/app/assets/Icon.svg";
 export default function TopNavbarComponent() {
   const [btn, setBtn] = useState("");
   return (
-    <div className="fixed top-10 w-full px-10 border-t border-b-2 border-black shadow-2xl bg-white">
+    <div className="fixed z-10 top-10 w-full px-10 border-t border-b-2 border-black shadow-2xl bg-white">
       <div className="h-full w-full flex justify-between items-center">
         <div className="flex items-center gap-4">
           <Image src={Logo} alt="Positivus Logo" width={25} height={25} />
