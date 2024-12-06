@@ -5,9 +5,9 @@ import React, { useState } from "react";
 import Logo from "@/app/assets/Icon.svg";
 
 export default function TopNavbarComponent() {
-    const [btn, setBtn] = useState("")
+  const [btn, setBtn] = useState("");
   return (
-    <div className="fixed top-10 w-full h-16 px-10">
+    <div className="fixed top-0 w-full px-10 bg-white">
       <div className="h-full w-full flex justify-between items-center">
         <div className="flex items-center gap-4">
           <Image src={Logo} alt="Positivus Logo" width={25} height={25} />
@@ -16,20 +16,30 @@ export default function TopNavbarComponent() {
 
         <nav className="text-xl">
           <ul className="flex items-center gap-6">
-            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">About Us</li>
-            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">Services</li>
-            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">Use Cases</li>
-            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">Pricing</li>
-            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">Blog</li>
+            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">
+              About Us
+            </li>
+            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">
+              Services
+            </li>
+            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">
+              Use Cases
+            </li>
+            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">
+              Pricing
+            </li>
+            <li className="cursor-pointer px-4 py-2 rounded-full hover:bg-[#B9FF66]">
+              Blog
+            </li>
           </ul>
         </nav>
 
         <button
           className={`bg-white text-black border border-r-4 border-b-4 border-black py-4 px-8 rounded-xl shadow-xl 
             `}
-            // ${btn}
+          // ${btn}
           type="button"
-        //   onClick={() => setBtn("border-b-2 border-r-2")}
+          //   onClick={() => setBtn("border-b-2 border-r-2")}
         >
           Get Started
         </button>
