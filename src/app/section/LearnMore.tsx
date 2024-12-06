@@ -4,7 +4,7 @@ import LearnMoreImg from "@/app/assets/LearnMoreImg.png";
 
 export default function LearnMore() {
   return (
-    <div className="mt-16 w-screen px-16">
+    <div className="my-24 w-screen px-16">
       <div className="w-full h-[500px] flex justify-around items-center bg-[#F3F3F3] rounded-3xl">
         <div className="h-full flex flex-col justify-center items-start gap-12">
           <h1 className="text-5xl">Let’s make things happen</h1>

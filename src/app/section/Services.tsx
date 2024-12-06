@@ -10,9 +10,9 @@ import Analytics from "@/app/assets/Analytics.png";
 
 export default function Services() {
   return (
-    <div className="mt-16 w-screen min-h-screen px-16 border">
+    <div className="mt-16 w-screen min-h-screen px-16">
       <div className="w-full inline-flex items-center gap-20 py-12">
-        <h1 className="bg-[#B9FF66] rounded-xl text-5xl py-0.5 px-0.5">
+        <h1 className="bg-[#B9FF66] rounded-xl text-5xl px-1.5 py-0.5">
           Services
         </h1>
         <p className="text-3xl">
