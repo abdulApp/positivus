@@ -11,6 +11,7 @@ import zoom from '@/app/assets/CompanyLogo/zoomLogo.png'
 
 export default function Hero() {
   return (
+    <>
     <div className='mt-16 w-screen h-screen pt-10'>
         <div className='w-full h-[80%] bg-white flex px-16'>
             <div className='w-1/2 h-full flex flex-col justify-center items-start gap-16'>
@@ -31,5 +32,6 @@ export default function Hero() {
             <Image src={zoom} alt="company logo" className='grayscale' width={150} height={120} />
         </div>
     </div>
+    </>
   )
 }
